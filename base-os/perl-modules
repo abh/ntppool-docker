@@ -13,6 +13,7 @@ DateTime::Format::Human::Duration
 Digest::SHA
 Email::Date
 Email::Send
+Email::Sender
 File::Path
 Gearman::Client
 Geo::IP
