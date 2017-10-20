@@ -12,7 +12,6 @@ DateTime::Format::Duration
 DateTime::Format::Human::Duration
 Digest::SHA
 Email::Date
-Email::Send
 Email::Sender
 Email::Stuffer
 File::Path
