@@ -1,4 +1,4 @@
-FROM quay.io/perl/base-os:v3.0.3
+FROM quay.io/perl/base-os:v3.1
 
 # Cache buster for occasionally resetting the cached images for the yum commands
 ENV LAST_UPDATED 2017-10-20
@@ -27,5 +27,3 @@ USER ntppool
 EXPOSE 8299
 
 USER ntppool
-
-#CMD ./docker-run
