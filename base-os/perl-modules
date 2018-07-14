@@ -6,6 +6,7 @@ Config::Simple
 Crypt::JWT
 DBI
 DBD::mysql
+DBD::MariaDB
 Data::Dumper
 Data::Transformer
 DateTime::Format::Duration
