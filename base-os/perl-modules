@@ -6,6 +6,7 @@ Config::Simple
 Crypt::JWT
 DBI
 DBD::mysql
+DBD::MariaDB
 Data::Dumper
 Data::Transformer
 DateTime::Format::Duration
@@ -35,6 +36,7 @@ MooseX::NonMoose
 Net::DNS
 Net::IP
 Net::NTP
+Net::OAuth2
 Plack
 Plack::Middleware::AccessLog
 Plack::Middleware::Options
