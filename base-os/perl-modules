@@ -36,7 +36,7 @@ MooseX::NonMoose
 Net::DNS
 Net::IP
 Net::NTP
-Net::OAuth2
+Net::OAuth2::Profile::WebServer
 Plack
 Plack::Middleware::AccessLog
 Plack::Middleware::Options
