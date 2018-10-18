@@ -1,4 +1,4 @@
-FROM quay.io/perl/base-os:v3.6
+FROM quay.io/perl/base-os:v3.7
 
 # Cache buster for occasionally resetting the cached images for the yum commands
 ENV LAST_UPDATED 2018-09-29
@@ -9,14 +9,6 @@ USER root
 
 # install all the cpan stuff we need
 RUN cpanm -M https://www.cpan.org -n < /tmp/.modules; rm -fr ~/.cpanm; rm -fr /usr/local/share/man;
-
-ADD patch-dbdimp.c /root/
-
-RUN cpan  < /dev/null && \
-   mkdir -p /tmp/dbd && cd /tmp/dbd && cpan -g DBD::mysql ; \
-   tar xvzf DBD-mysql*.tar.gz && rm *.tar.gz && cd DBD-mysql* && \
-   patch -p0 < /root/patch-dbdimp.c && perl Makefile.PL && make -j2 && make install ; \
-   rm -fr ~/.cpan
 
 RUN /usr/bin/geoipupdate-lite
 
