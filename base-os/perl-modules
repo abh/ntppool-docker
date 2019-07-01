@@ -4,6 +4,7 @@ Class::Accessor::Class
 Config::General
 Config::Simple
 Crypt::JWT
+Crypt::Skip32::Base32Crockford
 DBI
 DBD::mysql
 DBD::MariaDB
