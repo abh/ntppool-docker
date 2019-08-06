@@ -50,6 +50,7 @@ Router::Simple
 Socket6
 IO::Socket::INET6
 Starman
+String::Diff
 Template
 Template::Plugin::Comma
 Template::Plugin::JSON
