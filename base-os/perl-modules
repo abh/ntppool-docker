@@ -38,6 +38,7 @@ Net::DNS
 Net::IP
 Net::NTP
 Net::OAuth2
+Net::Stripe
 Plack
 Plack::Middleware::AccessLog
 Plack::Middleware::Options
