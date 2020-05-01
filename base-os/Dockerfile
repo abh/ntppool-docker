@@ -1,4 +1,4 @@
-FROM quay.io/perl/base-os:v3.11.5
+FROM quay.io/perl/base-os:v3.11.6
 
 # Cache buster for occasionally resetting the cached images for the yum commands
 ENV LAST_UPDATED 2020-04-01
