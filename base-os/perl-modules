@@ -34,13 +34,11 @@ Math::Random::Secure
 Module::Refresh
 Moose
 MooseX::NonMoose
+Net::API::Stripe
 Net::DNS
 Net::IP
 Net::NTP
 Net::OAuth2
-# for Net::Stripe, https://github.com/lukec/stripe-perl/issues/202
-Alt::Devel::CallParser::ButWorking
-Net::Stripe
 Plack
 Plack::Middleware::AccessLog
 Plack::Middleware::Options
