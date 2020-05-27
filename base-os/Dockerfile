@@ -8,7 +8,8 @@ ADD perl-modules /tmp/.modules
 USER root
 
 # install all the cpan stuff we need
-RUN cpanm -M https://www.cpan.org -n < /tmp/.modules; rm -fr ~/.cpanm; rm -fr /usr/local/share/man;
+RUN cpanm -M https://www.cpan.org -n < /tmp/.modules \
+  && rm -fr ~/.cpanm && rm -fr /usr/local/share/man;
 
 RUN /usr/bin/geoipupdate-lite
 
