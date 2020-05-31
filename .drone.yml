@@ -10,7 +10,7 @@ steps:
 #  - git submodule update --recursive --remote
 
 - name: docker  
-  image: askbjoernhansen/drone-kaniko:0.22-6
+  image: harbor.ntppool.org/ntppool/drone-kaniko:latest
   settings:
     dockerfile: base-os/Dockerfile
     context: base-os
