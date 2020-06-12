@@ -3,18 +3,12 @@ type: kubernetes
 name: default
 
 steps:
-#- name: submodules
-#  image: alpine/git
-#  commands:
-#  - git submodule init
-#  - git submodule update --recursive --remote
-
-- name: docker  
+- name: docker
   image: harbor.ntppool.org/ntppool/drone-kaniko:latest
   settings:
     dockerfile: base-os/Dockerfile
     context: base-os
-    repo: ntppool/xbase-os
+    repo: ntppool/base-os
     registry: harbor.ntppool.org
     auto_tag: true
     tags: SHA7,${DRONE_SOURCE_BRANCH}
