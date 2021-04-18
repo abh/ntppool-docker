@@ -11,8 +11,6 @@ USER root
 RUN cpanm -M https://www.cpan.org -n < /tmp/.modules \
   && rm -fr ~/.cpanm && rm -fr /usr/local/share/man;
 
-RUN /usr/bin/geoipupdate-lite
-
 ENV CBROOTLOCAL=/ntppool/
 ENV CBROOT=/ntppool/combust
 
