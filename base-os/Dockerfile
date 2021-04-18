@@ -1,4 +1,4 @@
-FROM harbor.ntppool.org/perlorg/base-os:3.12.0
+FROM harbor.ntppool.org/perlorg/base-os:3.13.5
 
 # Cache buster for occasionally resetting the cached images for the yum commands
 ENV LAST_UPDATED 2020-07-26
