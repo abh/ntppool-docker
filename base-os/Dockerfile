@@ -1,7 +1,7 @@
-FROM harbor.ntppool.org/perlorg/base-os:3.15.0
+FROM harbor.ntppool.org/perlorg/base-os:3.15.0-1
 
 # Cache buster for occasionally resetting the cached images for the yum commands
-ENV LAST_UPDATED 2021-11-03
+ENV LAST_UPDATED 2022-01-29
 
 RUN apk --no-cache upgrade
 
