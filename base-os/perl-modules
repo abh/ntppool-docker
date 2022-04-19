@@ -30,6 +30,7 @@ DBD::SQLite
 Locale::Object
 Math::BaseCalc
 Math::Random::Secure
+MIME::Base64
 Module::Refresh
 Moose
 MooseX::NonMoose
