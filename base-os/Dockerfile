@@ -1,4 +1,5 @@
-FROM harbor.ntppool.org/perlorg/base-os:3.15.4
+FROM harbor.ntppool.org/perlorg/base-os:3.16.2
+
 
 RUN apk --no-cache upgrade
 RUN apk --no-cache add vault
