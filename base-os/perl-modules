@@ -49,6 +49,7 @@ Rose::DB::Object
 Router::Simple
 Socket6
 IO::Socket::INET6
+IO::Socket::IP
 Starman
 String::Diff
 Template
@@ -63,3 +64,6 @@ local::lib
 namespace::clean
 namespace::autoclean
 File::Find::Rule
+
+Beekeeper::MQTT
+Net::MQTT
