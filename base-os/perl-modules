@@ -66,4 +66,4 @@ namespace::autoclean
 File::Find::Rule
 
 Beekeeper::MQTT
-Net::MQTT
+Net::MQTT::Message
