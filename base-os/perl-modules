@@ -40,6 +40,8 @@ Net::NTP
 Net::OAuth2
 Plack
 Plack::Middleware::AccessLog
+Plack::Middleware::LogErrors
+Plack::Middleware::LogWarn
 Plack::Middleware::Options
 Plack::Middleware::ReverseProxy
 Plack::Middleware::XForwardedFor
