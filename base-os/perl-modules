@@ -1,5 +1,3 @@
-
-Beekeeper::MQTT
 Cache::Memcached
 Class::Accessor::Class
 Config::General
