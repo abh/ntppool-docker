@@ -35,6 +35,7 @@ Math::Random::Secure
 Module::Refresh
 Moose
 MooseX::NonMoose
+Net::Async::HTTP::Server
 Net::DNS
 Net::IP
 Net::MQTT::Message
@@ -44,6 +45,7 @@ OpenTelemetry
 OpenTelemetry::Exporter::OTLP
 OpenTelemetry::SDK
 Plack
+Plack::Handler::Net::Async::HTTP::Server
 Plack::Middleware::AccessLog
 Plack::Middleware::LogErrors
 Plack::Middleware::LogWarn
