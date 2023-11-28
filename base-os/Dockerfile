@@ -1,8 +1,8 @@
 #FROM harbor.ntppool.org/perlorg/base-os:3.18.4
-FROM harbor.ntppool.org/perlorg/base-os@sha256:d1c870028623534d50425758b030fcbd2fc8d685a94f21ea661b01b9f181e1a0
+FROM  harbor.ntppool.org/perlorg/base-os@sha256:a79eae901072d4bc0d3d7f4b9edc181a59e494b1252a66e3fc47d28e2d8e1723
 
 RUN apk --no-cache upgrade
-RUN apk --no-cache add vault \
+RUN apk --no-cache add \
   unzip cmake protobuf-dev
 
 ADD perl-modules /tmp/.modules

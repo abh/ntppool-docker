@@ -18,7 +18,6 @@ Email::Stuffer
 File::Find::Rule
 File::Path
 Geo::IP
-Google::ProtocolBuffers::Dynamic
 HTML::Entities
 HTML::TagCloud
 HTTP::Date
