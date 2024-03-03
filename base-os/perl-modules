@@ -40,7 +40,6 @@ Net::DNS
 Net::IP
 Net::MQTT::Message
 Net::NTP
-Net::OAuth2
 OpenTelemetry
 OpenTelemetry::Exporter::OTLP
 OpenTelemetry::SDK
