@@ -49,6 +49,7 @@ Plack::Middleware::AccessLog
 Plack::Middleware::LogErrors
 Plack::Middleware::LogWarn
 Plack::Middleware::Options
+Plack::Middleware::OpenTelemetry
 Plack::Middleware::ReverseProxy
 Plack::Middleware::XForwardedFor
 Pod::Simple

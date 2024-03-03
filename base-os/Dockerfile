@@ -8,7 +8,7 @@ ADD perl-modules /tmp/.modules
 
 USER root
 
-RUN cpanm https://tmp.askask.com/2023/11/Plack-Middleware-OpenTelemetry-0.233320-TRIAL.tar.gz
+# RUN cpanm https://tmp.askask.com/2023/11/Plack-Middleware-OpenTelemetry-0.233320-TRIAL.tar.gz
 
 # install all the cpan stuff we need
 RUN cpanm -M https://www.cpan.org -n < /tmp/.modules \
