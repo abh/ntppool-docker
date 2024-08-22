@@ -1,4 +1,4 @@
-FROM harbor.ntppool.org/perlorg/base-os:3.19.1
+FROM harbor.ntppool.org/perlorg/base-os:3.20.2
 
 RUN apk --no-cache upgrade
 RUN apk --no-cache add \
