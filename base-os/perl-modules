@@ -3,6 +3,7 @@ Class::Accessor::Class
 Config::General
 Config::Simple
 Crypt::JWT
+Crypt::Passphrase::Bcrypt
 Crypt::Skip32::Base32Crockford
 DBD::MariaDB
 DBD::SQLite
