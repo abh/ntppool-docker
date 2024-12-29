@@ -2,7 +2,7 @@ FROM harbor.ntppool.org/perlorg/base-os:3.21.0-1
 
 RUN apk --no-cache upgrade
 RUN apk --no-cache add \
-  unzip cmake protobuf-dev
+  unzip cmake protobuf-dev daemontools-encore
 
 ADD perl-modules /tmp/.modules
 
